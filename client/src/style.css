@@ -1,0 +1,144 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --main-bg-light: linear-gradient(
+    to right,
+    #ffffff,
+    rgba(255, 201, 228, 0.263)
+  );
+  --main-bg-dark: linear-gradient(to right, #000000, rgb(42, 35, 38));
+  --placeholder-light: #333333;
+  --placeholder-dark: #9d9d9d;
+  --button-bg-light: #f874bb;
+  --button-bg-dark: #68053a;
+  --button-text: #fff;
+  --input-bg-light: #eee;
+  --input-bg-dark: #2b2b2b;
+  --border-color-light: #ccc;
+  --border-color-dark: #4d4d4d;
+  --shadow-light: rgba(0, 0, 0, 0.35);
+  --shadow-dark: rgba(255, 255, 255, 0.35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+  color: #000;
+  background-color: #ffffff;
+  background: var(--main-bg-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 5px 15px var(--shadow-light);
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.container p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  margin: 20px 0;
+}
+
+.container span {
+  font-size: 12px;
+}
+
+.container a {
+  color: var(--placeholder-light);
+  font-size: 13px;
+  text-decoration: none;
+  margin: 15px 0 10px;
+}
+
+.container button {
+  background-color: var(--button-bg-light);
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container .transparent-button {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.container form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  height: 100%;
+}
+
+.container input {
+  background-color: var(--input-bg-light);
+  border: none;
+  margin: 8px 0;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+
+.dark-mode {
+  color: #fff;
+  background-color: #000;
+  background: var(--main-bg-dark, #000);
+}
+
+.dark-mode .container {
+  background-color: #000;
+  box-shadow: 0 5px 15px var(--shadow-dark);
+}
+
+.dark-mode .container a {
+  color: var(--placeholder-dark);
+}
+
+.dark-mode .container button {
+  background-color: var(--button-bg-dark);
+}
+
+.dark-mode .container form {
+  background-color: #000;
+}
+.dark-mode .container input {
+  background-color: var(--input-bg-dark);
+}  */

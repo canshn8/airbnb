@@ -1,0 +1,28 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --black: rgba(8, 8, 9, 1);
+  --border-color: rgba(247, 247, 247, 1);
+  --circle: rgba(245, 245, 245, 1);
+  --d-2: rgba(213, 174, 228, 1);
+  --light-color: rgba(223, 215, 249, 1);
+  --text-2: rgba(132, 130, 154, 1);
+  --text-clr: rgba(94, 98, 130, 1);
+  --text-color: rgba(57, 66, 93, 1);
+  --text-heading-color: rgba(30, 29, 76, 1);
+  --white: rgba(255, 255, 255, 1);
+  --x-1: rgba(138, 121, 223, 1);
+  --x-1st: rgba(255, 113, 82, 1);
+  --x-2nd: rgba(98, 70, 229, 1);
+  --x-3: rgba(240, 187, 31, 1);
+  --x-3rd: rgba(20, 24, 62, 1);
+  --x-4: rgba(241, 90, 43, 1);
+  --x-5: rgba(0, 99, 128, 1);
+}

@@ -1,0 +1,265 @@
+
+.imgContainer {
+    margin: auto;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: auto;
+    flex: 1 0 auto;
+    border-radius: 0.3em;
+    max-width: 20%;
+    margin: 5px;
+}
+
+.deneme{
+    margin: auto;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+
+.placeSearchItem {
+    display: flex;
+    border-radius: 1rem;
+}
+
+.placeSearchInput {
+    margin: auto;
+    border: none;
+    outline: none;
+}
+
+.placeSearchText {
+    width: 100vw;
+    height: 5vh;
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.date {
+    position: absolute;
+    z-index: 2;
+}
+
+#fiyat {
+    margin-top: 1em;
+    font-size: 20px;
+}
+
+#start {
+    -webkit-border-top-left-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    border-top-left-radius: 12px;
+}
+
+#end {
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-radius-topright: 12px;
+    border-top-right-radius: 12px;
+}
+
+.body {
+    margin-top: 2rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    width: 17vw;
+}
+
+#numberGuest {
+    -webkit-border-bottom-right-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: auto;
+}
+
+/* .selc {} */
+
+
+.h1 {
+    font-weight: 200;
+    border-radius: 1rem;
+}
+
+.desc {
+    margin: 20px 0px;
+}
+
+.span {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.addContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 3rem;
+    width: 100%;
+
+}
+
+.button {
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #3586ff;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 0.3rem;
+}
+
+.ds {
+    margin-top: 1.5rem;
+    margin-left: 3.8rem;
+}
+
+.fiyatDs {
+    margin-top: 3rem;
+}
+
+.rightS {
+    float: right;
+}
+
+.leftS {
+    float: left;
+}
+
+.cz {
+    border-top: 1px solid black;
+}
+
+.total {
+    font-size: 15px;
+}
+
+
+.infohead{
+    margin-top: 2rem;
+}
+
+.infoInItTitle{
+    padding: 0.1rem;
+}
+
+.infoDesc{
+    font-size: 20px;
+    padding: 0.1rem;
+    color: black;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.infoContEvul{
+    align-items: center;
+    padding: 0.1rem;
+    color: black;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.evul{
+    font-size: 20px ;
+    color: black;
+}
+
+.infoAvatar{
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.avatar{
+    object-fit: contain;
+    border-radius: 50%;
+    width: 45px;
+}
+
+
+.homeOwner{
+    color: black;
+    font-size: 23px;
+    margin-left: 2rem;
+}
+
+
+
+
+ul{
+    margin-top: 3rem;
+    margin-left:2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ul>li{
+    list-style: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.titleLi{
+    margin-top: 1rem;
+    font-size: 25px;
+    color: black;
+}
+
+.placeIcon{
+    margin-top: 2rem;
+    color: black;
+    font-size: 25px;
+}
+
+.infoReq{
+    display: flex;
+}
+
+
+.infoAboutPlace{
+    margin-top: 15rem;
+}
+
+.boxInfo{
+    border: 1px solid lightgray;
+    border-radius: 1em;
+    width: 11vw;
+    height: 16vh;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.faBed{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.askAbtOfSlpBd{
+    margin-left: 1rem;
+}
