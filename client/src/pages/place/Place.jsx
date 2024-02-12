@@ -102,7 +102,6 @@ const Place = () => {
         <img className="image" src={place.img} />
         <img className="image" src={place.img} />
       </div>
-
       <div className="deneme">
         <div className="infoContainer">
           <div className="infohead">
