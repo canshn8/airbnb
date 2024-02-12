@@ -1,6 +1,7 @@
 
 .imgContainer {
     margin: auto;
+    display: flex;
     width: 100vw;
     height: auto;
     flex-wrap: wrap;
